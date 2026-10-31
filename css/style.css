@@ -1,0 +1,88 @@
+.titre {
+  color: black;
+  text-align: center;
+  font-size: 100px;
+  font-weight: bold;
+}
+
+.bloc-jeu {
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: rgb(240, 255, 255, 0.5);
+}
+
+.vert {
+  color: green;
+  font-weight: bold;
+  font-size: 70px;
+  padding: 10px;
+}
+
+.rouge {
+  color: red;
+  font-weight: bold;
+  font-size: 70px;
+  padding: 10px;
+}
+
+.jaune {
+  color: yellow;
+  font-weight: bold;
+  font-size: 70px;
+  padding: 10px;
+}
+
+.block_result {
+  display: flex;
+  gap: 10px;
+  justify-content: space-around;
+}
+
+.result {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.btn-xyl {
+  flex-direction: column;
+  margin: 20px;
+  padding: 40px;
+  font-size: 40px;
+}
+
+.btn-xl {
+  margin: 20px;
+  padding: 32px;
+  font-size: 32px;
+}
+
+.bloc-score {
+  font-size: 45px;
+  font-weight: bold;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background-color: rgb(0, 0, 0, 0.8);
+}
+
+.tableau {
+  display: flex;
+  justify-content: space-around;
+}
+
+.affichage {
+  width: 150px;
+  padding: 20px;
+  text-align: center;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 10px;
+  background-color: white;
+}
+
